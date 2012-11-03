@@ -78,6 +78,13 @@ let mapleader=","
 " Snipmate setup
 source ~/.vim/snippets/support_functions.vim
 
+" Ragtag setup
+let g:ragtag_global_maps = 1
+
+" TabMan setup
+let g:tabman_toggle = '<leader>mt'
+let g:tabman_focus  = '<leader>mf'
+
 "recalculate the trailing whitespace warning when idle, and after saving
 autocmd cursorhold,bufwritepost * unlet! b:statusline_trailing_space_warning
 
