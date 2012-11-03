@@ -100,6 +100,7 @@ let g:tabman_toggle = '<leader>mt'
 let g:tabman_focus  = '<leader>mf'
 
 " NERDTree setup
+map <Leader>, :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 "recalculate the trailing whitespace warning when idle, and after saving
