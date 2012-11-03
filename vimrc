@@ -15,6 +15,10 @@ syntax on
 set t_Co=256
 colorscheme molokai
 
+" Search options
+set incsearch
+set hlsearch
+
 " Line wrapping options
 set wrap
 
@@ -78,6 +82,12 @@ cab tn tabnew
 
 " Changing default leader key
 let mapleader=","
+
+" FuzzyFinder configuration
+let g:fuf_coveragefile_globPatterns=['**/*.rb', '**/*.js', '**/*.erb', '**/*.css','**/*.php', '**/*.py']
+let g:fuf_coveragefile_exclude= 'vendor\/'
+let g:fuf_keyOpenTabpage = '<CR>'
+nnoremap <silent> <C-P> :FufFile<CR>
 
 " Snipmate setup
 source ~/.vim/snippets/support_functions.vim
