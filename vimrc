@@ -75,6 +75,9 @@ cab tn tabnew
 " Changing default leader key
 let mapleader=","
 
+" Snipmate setup
+source ~/.vim/snippets/support_functions.vim
+
 "recalculate the trailing whitespace warning when idle, and after saving
 autocmd cursorhold,bufwritepost * unlet! b:statusline_trailing_space_warning
 
