@@ -60,6 +60,10 @@ set switchbuf=useopen
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
+" Tabs shortcuts
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
+
 " Abbreviations to keep me from going insane
 iab lenght length
 iab widht width
@@ -86,7 +90,6 @@ let g:tabman_toggle = '<leader>mt'
 let g:tabman_focus  = '<leader>mf'
 
 " NERDTree setup
-autocmd vimenter * NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 "recalculate the trailing whitespace warning when idle, and after saving
