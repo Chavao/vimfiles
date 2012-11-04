@@ -18,6 +18,7 @@ colorscheme molokai
 " Search options
 set incsearch
 set hlsearch
+nnoremap <CR> :nohlsearch <CR><CR>
 
 " Line wrapping options
 set wrap
