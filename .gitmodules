@@ -40,3 +40,6 @@
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = git://github.com/tsaleh/vim-matchit.git
+[submodule "bundle/phpunit/plugin"]
+	path = bundle/phpunit/plugin
+	url = git://github.com/klokane/vim-phpunit.git
