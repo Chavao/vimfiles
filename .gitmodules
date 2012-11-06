@@ -37,3 +37,6 @@
 [submodule "snippets"]
 	path = snippets
 	url = git://github.com/scrooloose/snipmate-snippets.git
+[submodule "bundle/matchit"]
+	path = bundle/matchit
+	url = git://github.com/tsaleh/vim-matchit.git
