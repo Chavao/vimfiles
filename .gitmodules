@@ -43,3 +43,6 @@
 [submodule "bundle/phpunit/plugin"]
 	path = bundle/phpunit/plugin
 	url = git://github.com/klokane/vim-phpunit.git
+[submodule "colors"]
+	path = colors
+	url = git://github.com/Chavao/vim-colors.git
