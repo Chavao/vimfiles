@@ -90,11 +90,14 @@ cab tn tabnew
 " Changing default leader key
 let mapleader=","
 
-" FuzzyFinder configuration
-let g:fuf_coveragefile_globPatterns=['**/*.rb', '**/*.js', '**/*.erb', '**/*.css','**/*.php', '**/*.py']
-let g:fuf_coveragefile_exclude= 'vendor\/'
-let g:fuf_keyOpenTabpage = '<CR>'
-nnoremap <silent> <C-P> :FufFile<CR>
+" Ctrl P setup
+let g:ctrlp_map = "<C-P>"
+let g:ctrlp_custom_ignore = {
+            \ 'dir':  '\.git$\|\.hg$\|\.svn$',
+            \ 'file': '\.pyc$',
+            \ }
+let g:ctrlp_working_path_mode = 2
+let g:ctrlp_dotfiles = 0
 
 " Snipmate setup
 source ~/.vim/snippets/support_functions.vim
