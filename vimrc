@@ -21,7 +21,7 @@ set hlsearch
 nnoremap <CR> :nohlsearch <CR><CR>
 
 " Line wrapping options
-set wrap
+set nowrap
 
 " Disable visual bells
 set visualbell t_vb=
