@@ -46,6 +46,12 @@ inoremap <Right> <Esc><Right><Right>
 inoremap <Up> <Esc><Right><Up>
 inoremap <Down> <Esc><Right><Down>
 
+" Switch between Vim window splits easily
+nmap <silent> <C-k> :wincmd k<CR>
+nmap <silent> <C-j> :wincmd j<CR>
+nmap <silent> <C-h> :wincmd h<CR>
+nmap <silent> <C-l> :wincmd l<CR>
+
 " Loading indent and plugins depending on the filetype
 filetype plugin on
 filetype indent on
