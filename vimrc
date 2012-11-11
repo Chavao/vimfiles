@@ -119,6 +119,13 @@ let g:tabman_focus  = '<leader>mf'
 map <Leader>, :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
+" Easytag setup
+let g:easytags_resolve_links = 1
+let g:easytags_cmd = '/usr/bin/ctags'
+
+" Tagbar setup
+nnoremap <F4> :TagbarToggle<CR>
+
 "recalculate the trailing whitespace warning when idle, and after saving
 autocmd cursorhold,bufwritepost * unlet! b:statusline_trailing_space_warning
 
