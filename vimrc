@@ -40,12 +40,6 @@ set sts=4
 set expandtab
 set autoindent
 
-" Don't move around in Insert mode
-inoremap <Left> <Esc><Right><Left>
-inoremap <Right> <Esc><Right><Right>
-inoremap <Up> <Esc><Right><Up>
-inoremap <Down> <Esc><Right><Down>
-
 " Switch between Vim window splits easily
 nmap <silent> <C-k> :wincmd k<CR>
 nmap <silent> <C-j> :wincmd j<CR>
