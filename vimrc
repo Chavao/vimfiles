@@ -108,6 +108,9 @@ let g:ctrlp_custom_ignore = {
 let g:ctrlp_working_path_mode = 2
 let g:ctrlp_dotfiles = 0
 
+" Numbers setup
+nnoremap <F3> :NumbersToggle<CR>
+
 " Snipmate setup
 source ~/.vim/snippets/support_functions.vim
 
