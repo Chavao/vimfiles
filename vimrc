@@ -20,6 +20,10 @@ set incsearch
 set hlsearch
 nnoremap <CR> :nohlsearch <CR><CR>
 
+" History setup
+set history=700
+set undolevels=700
+
 " Line wrapping options
 set nowrap
 
