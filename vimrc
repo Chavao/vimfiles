@@ -99,6 +99,9 @@ cab tn tabnew
 " Changing default leader key
 let mapleader=","
 
+" File type configuration
+source ~/.vim/fileconfig.vim
+
 " Ctrl P setup
 let g:ctrlp_map = "<C-P>"
 let g:ctrlp_custom_ignore = {
