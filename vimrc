@@ -84,6 +84,10 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
+" Better indentation
+vnoremap < <gv
+vnoremap > >gv
+
 " Abbreviations to keep me from going insane
 iab lenght length
 iab widht width
