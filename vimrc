@@ -107,6 +107,9 @@ cab tn tabnew
 " Changing default leader key
 let mapleader=","
 
+" Khuno configuration
+nmap <silent><Leader>x <Esc>:Khuno show<CR>
+
 " File type configuration
 source ~/.vim/fileconfig.vim
 
