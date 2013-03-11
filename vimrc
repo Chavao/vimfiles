@@ -139,10 +139,6 @@ let g:tabman_focus  = '<leader>mf'
 map <Leader>, :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
-" Easytag setup
-let g:easytags_resolve_links = 1
-let g:easytags_cmd = '/usr/bin/ctags'
-
 " Tagbar setup
 nnoremap <F4> :TagbarToggle<CR>
 
