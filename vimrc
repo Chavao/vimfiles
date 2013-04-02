@@ -66,6 +66,9 @@ filetype indent on
 " Folding settings
 set nofoldenable
 
+" Fix slow O inserts
+set timeout timeoutlen=1000 ttimeoutlen=100
+
 " Commando line completion
 set wildmode=list:longest
 set wildmenu
