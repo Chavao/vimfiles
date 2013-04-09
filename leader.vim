@@ -14,3 +14,9 @@ map <Leader>r :call RenameFile()<CR>
 
 " Numbers setup
 nnoremap <Leader>n :NumbersToggle<CR>
+
+" Fugitive setup
+map <Leader>gg <Esc>:Gstatus<CR>
+map <Leader>gc <Esc>:Gcommit<CR>
+map <Leader>ga <Esc>:Gwrite<CR>
+map <Leader>gd <Esc>:Gdiff<CR>
