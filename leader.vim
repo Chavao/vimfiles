@@ -7,7 +7,10 @@ map <Leader>q <Esc>:q<CR>
 nmap <silent><Leader>k <Esc>:Khuno show<CR>
 
 " NERDTree shortcut
-map <Leader>n :NERDTreeToggle<CR>
+map <Leader>t :NERDTreeToggle<CR>
 
 " Rename file
 map <Leader>r :call RenameFile()<CR>
+
+" Numbers setup
+nnoremap <Leader>n :NumbersToggle<CR>
