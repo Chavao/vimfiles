@@ -116,6 +116,9 @@ nmap <silent><Leader>x <Esc>:Khuno show<CR>
 " File type configuration
 source ~/.vim/fileconfig.vim
 
+" Leader commands
+source ~/.vim/leader.vim
+
 " Ctrl P setup
 let g:ctrlp_map = "<C-P>"
 let g:ctrlp_custom_ignore = {
