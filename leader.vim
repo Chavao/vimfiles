@@ -8,3 +8,6 @@ nmap <silent><Leader>k <Esc>:Khuno show<CR>
 
 " NERDTree shortcut
 map <Leader>n :NERDTreeToggle<CR>
+
+" Rename file
+map <Leader>r :call RenameFile()<CR>
