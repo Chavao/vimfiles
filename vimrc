@@ -87,10 +87,6 @@ set switchbuf=useopen
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
-" Tabs shortcuts
-nnoremap <C-H> :tabprevious<CR>
-nnoremap <C-L> :tabnext<CR>
-
 " Better indentation
 vnoremap < <gv
 vnoremap > >gv

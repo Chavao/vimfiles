@@ -20,3 +20,7 @@ map <Leader>gg <Esc>:Gstatus<CR>
 map <Leader>gc <Esc>:Gcommit<CR>
 map <Leader>ga <Esc>:Gwrite<CR>
 map <Leader>gd <Esc>:Gdiff<CR>
+
+" Tabs shortcuts
+nnoremap <Leader>a :tabprevious<CR>
+nnoremap <Leader>d :tabnext<CR>
