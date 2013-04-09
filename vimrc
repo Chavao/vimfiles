@@ -110,9 +110,6 @@ cab tn tabnew
 " Changing default leader key
 let mapleader=","
 
-" Khuno configuration
-nmap <silent><Leader>x <Esc>:Khuno show<CR>
-
 " File type configuration
 source ~/.vim/fileconfig.vim
 
@@ -142,7 +139,6 @@ let g:tabman_toggle = '<leader>mt'
 let g:tabman_focus  = '<leader>mf'
 
 " NERDTree setup
-map <Leader>, :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 " Tagbar setup
