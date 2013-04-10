@@ -114,7 +114,7 @@ source ~/.vim/fileconfig.vim
 source ~/.vim/functions.vim
 
 " Leader commands
-source ~/.vim/leader.vim
+source ~/.vim/keymap.vim
 
 " Ctrl P setup
 let g:ctrlp_map = "<C-P>"
