@@ -45,21 +45,6 @@ set sts=4
 set expandtab
 set autoindent
 
-" Avoid move with arrow keys
-map <Left> :echo "Oops! Use h!"<CR>
-map <Right> :echo "Oops! Use l!"<CR>
-map <Up> :echo "Oops! Use k!"<CR>
-map <Down> :echo "Oops! Use j!"<CR>
-
-" Switch between Vim window splits easily
-nmap <silent> <C-k> :wincmd k<CR>
-nmap <silent> <C-j> :wincmd j<CR>
-nmap <silent> <C-h> :wincmd h<CR>
-nmap <silent> <C-l> :wincmd l<CR>
-
-" Delete without overwrite buffer
-nnoremap R "_d
-
 " Loading indent and plugins depending on the filetype
 filetype plugin on
 filetype indent on
@@ -87,10 +72,6 @@ set switchbuf=useopen
 " Store temporary files in a central spot
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-
-" Better indentation
-vnoremap < <gv
-vnoremap > >gv
 
 " Abbreviations to keep me from going insane
 iab lenght length
@@ -131,17 +112,8 @@ source ~/.vim/snippets/support_functions.vim
 " Ragtag setup
 let g:ragtag_global_maps = 1
 
-" TabMan setup
-let g:tabman_toggle = '<leader>mt'
-let g:tabman_focus  = '<leader>mf'
-
 " NERDTree setup
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
-" Tagbar setup
-nnoremap <F4> :TagbarToggle<CR>
-
 " Recalculate the trailing whitespace warning when idle, and after saving
 autocmd cursorhold,bufwritepost * unlet! b:statusline_trailing_space_warning
-
-nnoremap <silent> <F5> :call RemoveTraillingSpaces()<CR>

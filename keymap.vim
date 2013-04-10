@@ -24,3 +24,32 @@ map <Leader>gd <Esc>:Gdiff<CR>
 " Tabs shortcuts
 nnoremap <Leader>a :tabprevious<CR>
 nnoremap <Leader>d :tabnext<CR>
+
+" Avoid move with arrow keys
+map <Left> :echo "Oops! Use h!"<CR>
+map <Right> :echo "Oops! Use l!"<CR>
+map <Up> :echo "Oops! Use k!"<CR>
+map <Down> :echo "Oops! Use j!"<CR>
+
+" Switch between Vim window splits easily
+nmap <silent> <C-k> :wincmd k<CR>
+nmap <silent> <C-j> :wincmd j<CR>
+nmap <silent> <C-h> :wincmd h<CR>
+nmap <silent> <C-l> :wincmd l<CR>
+
+" Delete without overwrite buffer
+nnoremap R "_d
+
+" Better indentation
+vnoremap < <gv
+vnoremap > >gv
+
+" TabMan setup
+map <Leader>mt <Esc>:TMToggle<CR>
+map <Leader>mf <Esc>:TMFocus<CR>
+
+" Remove trailing spaces
+nnoremap <silent> <F5> :call RemoveTraillingSpaces()<CR>
+
+" Tagbar setup
+nnoremap <F4> :TagbarToggle<CR>
