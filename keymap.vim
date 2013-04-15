@@ -2,6 +2,7 @@
 map <Leader>s <Esc>:w<CR>
 map <Leader>x <Esc>:wq<CR>
 map <Leader>q <Esc>:q<CR>
+map <Leader>fq <Esc>:q!<CR>
 
 " Khuno configuration
 nmap <silent><Leader>k <Esc>:Khuno show<CR>
