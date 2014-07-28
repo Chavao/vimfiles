@@ -86,16 +86,7 @@ set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
 " Abbreviations to keep me from going insane
-iab lenght length
-iab widht width
-iab heigth height
-cab W w
-cab Q q
-cab Wq wq
-cab WQ wq
-cab qw wq
-cab X x
-cab tn tabnew
+source ~/.vim/abbreviations.vim
 
 " Changing default leader key
 let mapleader=","
