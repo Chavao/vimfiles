@@ -121,5 +121,21 @@ let g:ragtag_global_maps = 1
 " NERDTree setup
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
+" Ctrl-Space setup
+let g:ctrlspace_symbols = {
+        \ "cs"      : "#",
+        \ "tab"     : "⊙",
+        \ "all"     : "∷",
+        \ "open"    : "◎",
+        \ "tabs"    : "○",
+        \ "c_tab"   : "●",
+        \ "load"    : "⋮ → ∙",
+        \ "save"    : "∙ → ⋮",
+        \ "prv"     : "⌕",
+        \ "s_left"  : "›",
+        \ "s_right" : "‹"
+        \ }
+
+
 " Recalculate the trailing whitespace warning when idle, and after saving
 autocmd cursorhold,bufwritepost * unlet! b:statusline_trailing_space_warning
