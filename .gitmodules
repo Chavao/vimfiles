@@ -4,3 +4,6 @@
 [submodule "colors"]
 	path = colors
 	url = git://github.com/Chavao/vim-colors.git
+[submodule "bundle/neobundle.vim"]
+	path = bundle/neobundle.vim
+	url = git://github.com/Shougo/neobundle.vim

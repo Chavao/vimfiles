@@ -1,8 +1,20 @@
 " Necessary on some Linux distros for pathogen to properly load bundles
 filetype off
 
-" Load all Pathogen Bundles
-call pathogen#runtime_append_all_bundles()
+" Load all Neobundle Bundles
+if has('vim_starting')
+    set runtimepath+=~/.vim/bundle/neobundle.vim/
+endif
+
+call neobundle#begin(expand('~/.vim/bundle'))
+
+let g:neobundle#types#git#default_protocol = 'git'
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+source ~/.vim/neobundle.vim
+
+call neobundle#end()
+NeoBundleCheck
 
 " Set vim-specific functions available, breaking compatibility with vi
 set nocompatible
