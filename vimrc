@@ -1,3 +1,6 @@
+" Set encoding to UTF-8
+set encoding=utf-8
+
 " Necessary on some Linux distros for pathogen to properly load bundles
 filetype off
 
