@@ -1,13 +1,6 @@
-$ git clone git://github.com/Chavao/vimfiles.git ~/.vim
+Run:
 
-$ vim ~/.vimrc
-
-Add:
-
-source ~/.vim/vimrc
-
-Save!
-
-$ cd ~/.vim
-
-$ git submodule update --init
+```
+ $ curl https://raw.githubusercontent.com/Chavao/vimfiles/master/install.sh | sh
+```
+Wait and enjoy! =D
