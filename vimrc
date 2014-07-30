@@ -137,7 +137,7 @@ let g:ctrlspace_symbols = {
         \ }
 
 " EasyMotion setup
-let g:EasyMotion_leader_key = '\'
+let g:EasyMotion_leader_key = ';'
 
 " Recalculate the trailing whitespace warning when idle, and after saving
 autocmd cursorhold,bufwritepost * unlet! b:statusline_trailing_space_warning
