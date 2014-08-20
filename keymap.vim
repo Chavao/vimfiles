@@ -54,3 +54,6 @@ nnoremap <silent> <F5> :call RemoveTraillingSpaces()<CR>
 
 " Tagbar setup
 nnoremap <F4> :TagbarToggle<CR>
+
+" Choose a random colorscheme
+nnoremap <silent> <F6> :call RandomColorScheme()<CR>
