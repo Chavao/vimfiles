@@ -57,3 +57,6 @@ nnoremap <F4> :TagbarToggle<CR>
 
 " Choose a random colorscheme
 nnoremap <silent> <F6> :call RandomColorScheme()<CR>
+
+" Choose the default colorscheme
+nnoremap <silent> <F7> :colorscheme molokai <CR>
