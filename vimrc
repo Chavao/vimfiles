@@ -49,6 +49,9 @@ set undolevels=700
 " Line wrapping options
 set nowrap
 
+" Enable mouse use in all modes
+set mouse=a
+
 " Disable visual bells
 set visualbell t_vb=
 
