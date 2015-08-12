@@ -9,9 +9,10 @@ if has('vim_starting')
     set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif
 
-" Hide menu in gvim
+" gvim settings
 if has('gui_running')
     set guioptions=-M
+    set lines=999 columns=999
 endif
 
 call neobundle#begin(expand('~/.vim/bundle'))
