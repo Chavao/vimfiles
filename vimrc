@@ -9,6 +9,11 @@ if has('vim_starting')
     set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif
 
+" Hide menu in gvim
+if has('gui_running')
+    set guioptions=-M
+endif
+
 call neobundle#begin(expand('~/.vim/bundle'))
 
 let g:neobundle#types#git#default_protocol = 'git'
