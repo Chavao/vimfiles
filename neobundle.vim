@@ -1,4 +1,4 @@
-NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'akitaonrails/snipmate.vim'
 NeoBundle 'wycats/nerdtree'
