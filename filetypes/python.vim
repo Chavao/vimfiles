@@ -1,3 +1,3 @@
 " Max column size configuration
-highlight OverLength ctermbg=red ctermfg=white guibg=#FF0000
+highlight OverLength ctermbg=blue ctermfg=white guibg=#0000FF
 match OverLength /\%80v.\+/
