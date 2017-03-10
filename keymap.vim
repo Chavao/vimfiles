@@ -26,6 +26,10 @@ map <Leader>gd <Esc>:Gdiff<CR>
 nnoremap <Leader>a :tabprevious<CR>
 nnoremap <Leader>d :tabnext<CR>
 
+" Buffer shortcuts
+nmap <silent><Tab> :CtrlSpace<CR>
+map <Leader>d :bd<CR>
+
 " Avoid move with arrow keys
 map <Left> :echo "Oops! Use h!"<CR>
 map <Right> :echo "Oops! Use l!"<CR>
