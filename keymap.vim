@@ -50,10 +50,6 @@ nnoremap R "_d
 vnoremap < <gv
 vnoremap > >gv
 
-" TabMan setup
-map <Leader>mt <Esc>:TMToggle<CR>
-map <Leader>mf <Esc>:TMFocus<CR>
-
 " Remove trailing spaces
 nnoremap <silent> <F5> :call RemoveTraillingSpaces()<CR>
 
