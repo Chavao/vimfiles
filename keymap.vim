@@ -28,6 +28,7 @@ nnoremap <Leader>d :tabnext<CR>
 
 " Buffer shortcuts
 nmap <silent><Tab> :CtrlSpace<CR>
+nmap <silent><S-Tab> :bn<CR>
 map <Leader>d :bd<CR>
 
 " Avoid move with arrow keys
