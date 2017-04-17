@@ -1,7 +1,6 @@
 NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'akitaonrails/snipmate.vim'
-NeoBundle 'wycats/nerdtree'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tpope/vim-ragtag'
 NeoBundle 'tpope/vim-fugitive'

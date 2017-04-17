@@ -7,8 +7,8 @@ map <Leader>fq <Esc>:q!<CR>
 " Khuno configuration
 nmap <silent><Leader>k <Esc>:Khuno show<CR>
 
-" NERDTree shortcut
-map <Leader>t :NERDTreeToggle<CR>
+" File explorer shortcut
+map <Leader>t :Ex<CR>
 
 " Rename file
 map <Leader>r :call RenameFile()<CR>
