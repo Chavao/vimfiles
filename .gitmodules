@@ -1,6 +1,3 @@
-[submodule "snippets"]
-	path = snippets
-	url = git://github.com/scrooloose/snipmate-snippets.git
 [submodule "colors"]
 	path = colors
 	url = git://github.com/Chavao/vim-colors.git
