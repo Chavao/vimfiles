@@ -36,6 +36,7 @@ syntax on
 set t_Co=256
 colorscheme molokai
 set cursorline
+hi Visual term=reverse cterm=reverse guibg=Grey
 
 " Search options
 set incsearch
