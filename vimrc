@@ -57,6 +57,9 @@ set mouse=a
 " Disable visual bells
 set visualbell t_vb=
 
+" Hide files in Ex
+let g:netrw_list_hide= '.*\.pyc$'
+
 " Statusline setup
 set statusline=%f\  " Filename
 set statusline+=%c, " Cursor Column
