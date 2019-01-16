@@ -1,9 +1,9 @@
 [submodule "colors"]
 	path = colors
-	url = git://github.com/Chavao/vim-colors.git
+	url = https://github.com/Chavao/vim-colors.git
 [submodule "bundle/neobundle.vim"]
 	path = bundle/neobundle.vim
-	url = git://github.com/Shougo/neobundle.vim
+	url = https://github.com/Shougo/neobundle.vim
 [submodule "snippets"]
 	path = snippets
-	url = git://github.com/Chavao/snipmate-snippets.git
+	url = https://github.com/Chavao/snipmate-snippets.git

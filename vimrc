@@ -17,7 +17,7 @@ endif
 
 call neobundle#begin(expand('~/.vim/bundle'))
 
-let g:neobundle#types#git#default_protocol = 'git'
+let g:neobundle#types#git#default_protocol = 'https'
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 source ~/.vim/neobundle.vim
