@@ -127,9 +127,6 @@ let g:ctrlp_working_path_mode = 2
 let g:ctrlp_dotfiles = 0
 let g:ctrlp_max_files = 99999999
 
-" Snipmate setup
-source ~/.vim/snippets/support_functions.vim
-
 " Ragtag setup
 let g:ragtag_global_maps = 1
 
