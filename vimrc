@@ -84,7 +84,7 @@ set nofoldenable
 " Fix slow O inserts
 set timeout timeoutlen=1000 ttimeoutlen=100
 
-" Commando line completion
+" Command line completion
 set wildmode=list:longest
 set wildmenu
 set wildignore=*.o,*.obj,*.swp,*~,#*#
