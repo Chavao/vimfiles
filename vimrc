@@ -120,7 +120,7 @@ source ~/.vim/keymap.vim
 " Ctrl P setup
 let g:ctrlp_map = "<C-P>"
 let g:ctrlp_custom_ignore = {
-            \ 'dir':  '\.git$\|\.hg$\|\.svn$',
+            \ 'dir':  '\.git$\|\.hg$\|\.svn$\|node_modules$',
             \ 'file': '\.pyc$',
             \ }
 let g:ctrlp_working_path_mode = 2
