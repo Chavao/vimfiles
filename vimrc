@@ -117,6 +117,9 @@ source ~/.vim/functions.vim
 " Leader commands
 source ~/.vim/keymap.vim
 
+" Snippets
+source ~/.vim/snippets.vim
+
 " Ctrl P setup
 let g:ctrlp_map = "<C-P>"
 let g:ctrlp_custom_ignore = {
