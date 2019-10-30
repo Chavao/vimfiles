@@ -35,7 +35,8 @@ set number
 syntax on
 set t_Co=256
 colorscheme molokai
-set cursorline
+set cursorline!
+set lazyredraw
 set cursorcolumn
 hi Visual term=reverse cterm=reverse guibg=Grey
 
@@ -153,9 +154,6 @@ let g:ctrlspace_symbols = {
 
 " EasyMotion setup
 let g:EasyMotion_leader_key = ';'
-
-"AutoSave setup
-let g:auto_save = 1
 
 " Recalculate the trailing whitespace warning when idle, and after saving
 autocmd cursorhold,bufwritepost * unlet! b:statusline_trailing_space_warning
