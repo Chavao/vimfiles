@@ -131,9 +131,6 @@ let g:ctrlp_working_path_mode = 2
 let g:ctrlp_dotfiles = 0
 let g:ctrlp_max_files = 99999999
 
-" Ragtag setup
-let g:ragtag_global_maps = 1
-
 " NERDTree setup
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
