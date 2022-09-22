@@ -36,3 +36,18 @@ function! RenameFile()
         redraw!
     endif
 endfunction
+
+function! UseCtrlZ()
+    echo "Use C-z"
+endfunction
+
+function! SetProjectMode()
+    cab Wq w<Esc>:call UseCtrlZ()
+    cab WQ w<Esc>:call UseCtrlZ()
+    cab qw w<Esc>:call UseCtrlZ()
+    cab wq w<Esc>:call UseCtrlZ()
+    cab q <Esc>:call UseCtrlZ()
+
+    map <Leader>x <Esc>:w<CR><Esc> :call UseCtrlZ()<CR>
+    map <Leader>q <Esc>:call UseCtrlZ()<CR>
+endfunction

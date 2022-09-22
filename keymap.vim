@@ -10,8 +10,8 @@ map <Leader>t :Ex<CR>
 " Rename file
 map <Leader>r :call RenameFile()<CR>
 
-" Numbers setup
-nnoremap <Leader>n :NumbersToggle<CR>
+" Set Project Mode (prevent to close vim)
+nnoremap <Leader>m :call SetProjectMode()<CR>
 
 " Fugitive setup
 map <Leader>gg <Esc>:Gstatus<CR>
