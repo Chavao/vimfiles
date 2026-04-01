@@ -2,6 +2,7 @@
 map <Leader>s <Esc>:w<CR>
 map <Leader>x <Esc>:wq<CR>
 map <Leader>q <Esc>:q<CR>
+nnoremap /q :q<CR>
 map <Leader>fq <Esc>:q!<CR>
 
 " File explorer shortcut
