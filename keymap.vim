@@ -55,4 +55,6 @@ nnoremap <silent> <F5> :call RemoveTraillingSpaces()<CR>
 nnoremap <F4> :TagbarToggle<CR>
 
 " Toggle paste mode
-set pastetoggle=<F2>
+if exists('+pastetoggle')
+    set pastetoggle=<F2>
+endif
